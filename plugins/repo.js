@@ -13,10 +13,21 @@ try{
 
 let dec = `*BLAST-MD REPO*
 
-*| ɴᴀᴍᴇ*: BLAST-MD
-*| ᴏᴡɴᴇʀ*: DENZO-UCHIWA ( BLAST-MD )
-*| ɴᴜᴍʙᴇʀ*: +244956100349
-*| ᴠᴇʀꜱɪᴏɴ*: 1.0.0
+╭––––––––––––––––––––––––►
+├──► *🎯Total Stars:* ${data.stargazers_count} stars
+┆
+├──► *🎯Forks:* ${data.forks_count} forks
+┆
+├──► *🎯github link:* https://github.com/DENZO-UCHIWA/BLAST-MD
+┆
+├──► *🎯support Group:* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud
+┆
+├──► *🎯develeper num:* +244939457425
+┆
+├──► *🎯Tutoral video:*
+┆
+├──► 🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐁𝐘  
+╰––––––––––––––––––––––––►
 
 
 *📡 REPO LINK*
@@ -25,7 +36,7 @@ let dec = `*BLAST-MD REPO*
 *📌 SUBSCRIBE MY YOUTUBE CHANNEL*
 🔗◦ 
 
-©ᴘᴏᴡᴇʀᴇᴅ BY DENZO-UCHIWA
+ BY DENZO-UCHIWA
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
 
