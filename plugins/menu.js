@@ -66,7 +66,7 @@ let dec = `
 
  ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ BLAST-MD
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/016fbf2d66a8dd3504aa8.png`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
