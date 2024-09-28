@@ -11,21 +11,21 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👾 GHOST MD Repastitory Information*
+let dec = `*BLAST-MD REPO*
 
-*| ɴᴀᴍᴇ*: ɢʜᴏꜱᴛ-ᴍᴅ
-*| ᴏᴡɴᴇʀ*: ᴄʏʙᴇʀ ɢʜᴏꜱᴛ ( ɢʜᴏꜱᴛ-ᴍᴅ )
-*| ɴᴜᴍʙᴇʀ*: 94741140620
+*| ɴᴀᴍᴇ*: BLAST-MD
+*| ᴏᴡɴᴇʀ*: DENZO-UCHIWA ( BLAST-MD )
+*| ɴᴜᴍʙᴇʀ*: +244956100349
 *| ᴠᴇʀꜱɪᴏɴ*: 1.0.0
 
 
 *📡 REPO LINK*
-🔗◦https://github.com/GHOST-V1-MD/GHOST-MD.git
+🔗◦https://github.com/DENZO-UCHIWA/BLAST-MD.git
 
 *📌 SUBSCRIBE MY YOUTUBE CHANNEL*
-🔗◦ https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M
+🔗◦ 
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+©ᴘᴏᴡᴇʀᴇᴅ BY DENZO-UCHIWA
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
 
