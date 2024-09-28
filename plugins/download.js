@@ -11,7 +11,7 @@ let baseUrl;
 })();
 
 
-const yourName = "*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ";
+const yourName = "*©BY DENZO-UCHIWA";
 
 
 
