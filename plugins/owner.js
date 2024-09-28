@@ -16,14 +16,8 @@ let dec = `*BLAST-MD BOT*
 ┆► *🎯OWNER:* DENZO-UCHIWA
 ┆►
 ├► *🎯NUMBER:* +244956100349 
-┆►
-┆► *🎯Speed:* ${latensie.toFixed(4)} ms
-├►
-┆► *🎯Uptime:* ${runtime(process.uptime())}
 ├►
 ┆► *🎯Version:* 0.0.9
-├►
-┆► *🎯Owner:*  ${Config.ownername}
 ├►
 ┆► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*:  
 ├►
