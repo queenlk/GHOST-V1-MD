@@ -11,14 +11,26 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👾 GHOST-MD Whatsapp Bot*
-
-*| ᴏᴡɴᴇʀ ɴᴀᴍᴇ*: ᴄʏʙᴇʀ ɢʜᴏꜱᴛ ( ɢʜᴏꜱᴛ-ᴍᴅ )
-*| ɴᴜᴍʙᴇʀ*: 94704227534
-*| ʏᴏᴜᴛᴜʙᴇ*: https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M
-*| ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*: https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O
-
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+let dec = `*BLAST-MD BOT*
+╭–––––––––––––––––––––––––►
+┆► *🎯OWNER:* DENZO-UCHIWA
+┆►
+├► *🎯NUMBER:* +244956100349 
+┆►
+┆► *🎯Speed:* ${latensie.toFixed(4)} ms
+├►
+┆► *🎯Uptime:* ${runtime(process.uptime())}
+├►
+┆► *🎯Version:* 0.0.9
+├►
+┆► *🎯Owner:*  ${Config.ownername}
+├►
+┆► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*:  
+├►
+┆► *🎯Developed by*: 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀
+├►
+┆► 🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 BY DENZO-UCHIWA
+╰––––––––––––––––––––––––––►
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
 
