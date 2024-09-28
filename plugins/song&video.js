@@ -9,8 +9,9 @@ cmd({
             filename: __filename,
             use: '<Hii,this is BLAST-MD>',
         },
-        async(Void, citel, text) => {
-            if (!text) return citel.reply('Please give me a Sentence to change into audio.')
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+  if (!q) return citel.reply('Please give me a Sentence to change into audio.')
             let texttts = text
             const ttsurl = googleTTS.getAudioUrl(texttts, {
                 lang: "fr",
@@ -37,9 +38,10 @@ cmd({
         filename: __filename,
         use: '<yt search text>',
     },
-    async(Void, citel, text) => {
+    async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
         let yts = require("secktor-pack");
-        if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
+        if (!q) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
         let search = await yts(text);
         let textt = "*YouTube Search*\n\n Result From " + text + "\n\n─────────────────►\n";
         let no = 1;
@@ -70,7 +72,8 @@ cmd({
             filename: __filename,
             use: '<808-juice wrld >',
         },
-        async(Void, citel, text) => {
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
             let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
@@ -132,7 +135,8 @@ cmd({
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
-        async(Void, citel, text) => {
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
             if (!text) return citel.reply(`Use ${command} Back in Black`);
             let yts = require("secktor-pack");
             let search = await yts(text);
@@ -216,7 +220,8 @@ cmd({
             filename: __filename,
             use: '<ringtone name>',
         },
-        async(Void, citel, text) => {
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
             if (!text) return citel.reply(`Example: ${prefix}ringtone back in black`)
             let anu = await ringtone(text)
             let result = anu[Math.floor(Math.random() * anu.length)]
@@ -274,8 +279,9 @@ cmd({
             filename: __filename,
             use: '<url of mediafire>',
         },
-        async(Void, citel, text) => {
-            if (!text) return citel.reply(`Give link ${tlang().greet}`);
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+            if (!q) return citel.reply(`Give link ${tlang().greet}`);
             if (!isUrl(text.split(" ")[0]) && !text.split(" ")[0].includes("mediafire.com")) return reply(`The link you provided is invalid`);
             const baby1 = await mediafire(text);
             if (baby1[0].size.split("MB")[0] >= 999) return reply("*File Over Limit* " + util.format(baby1));
@@ -307,7 +313,8 @@ cmd({
             filename: __filename,
             use: '<text>',
         },
-        async(Void, citel, text) => {
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
             let yts = require("secktor-pack");
             let search = await yts(text);
             let anu = search.videos[0];
@@ -370,7 +377,8 @@ cmd({
             filename: __filename,
             use: '<yt video url>',
         },
-        async(Void, citel, text) => {
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
             const getRandom = (ext) => {
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
