@@ -4,10 +4,13 @@ const { cmd, commands } = require('../command')
 cmd({
     pattern: "ping",
     desc: "To check ping bro",
-    category: "general",
+    category: "main",
+    reacta: "⚡",
     filename: __filename,
 },
-async (Void, citel) => {
+    async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+    async (Void, citel) => {
     var initial = new Date().getTime();
     const { key } = await Void.sendMessage(citel.chat, { text: 'PING BLAST-MD BY DENZO-UCHIWA' });
     var final = new Date().getTime();
