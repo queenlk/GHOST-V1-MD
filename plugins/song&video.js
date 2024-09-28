@@ -56,7 +56,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න 🔎...*")
+if(!q) return reply("WAIT PLEASR...*")
 const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
@@ -90,7 +90,8 @@ await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fi
 reply(`${a}`)
 }
 })
- //---------------------------------------------------------------------------
+//===========video-dl===========
+ 
 cmd({
             pattern: "play",
             desc: "Sends info about the query(of youtube video/audio).",
@@ -98,16 +99,15 @@ cmd({
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
-        async(Void, citel, text) => {
-            if (!text) return citel.reply(`Use ${command} Back in Black`);
-            let yts = require("secktor-pack");
-            let search = await yts(text);
+        async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{ 
+          if(!q) return reply("WAIT PLEASR...*")
+const search = await yts(q);
             let anu = search.videos[0];
-            let buttonMessage = {
-                image: {
-                    url: anu.thumbnail,
-                },
-                caption: `
+           const url = data.url
+  let des= `*◆ BLAST-MD VIDEO DOWNLOADING.....◆*
+
+                
 ╭––––––––––––––––––►
 ├──►🎯 ${tlang().title} 
 ├──►🎯 *Youtube Player* 
