@@ -1,18 +1,7 @@
-/**
-                                                            
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
+const config = require('../config')
+const { cmd, commands } = require('../command')
 
-//---------------------------------------------------------------------------
-const Secktor = require('../lib');
-Secktor.cmd({
+cmd({
     pattern: "ping",
     desc: "To check ping bro",
     category: "general",
@@ -20,7 +9,7 @@ Secktor.cmd({
 },
 async (Void, citel) => {
     var initial = new Date().getTime();
-    const { key } = await Void.sendMessage(citel.chat, { text: '_*PING BLAST-MD BY DENZO-UCHIWA*_' });
+    const { key } = await Void.sendMessage(citel.chat, { text: 'PING BLAST-MD BY DENZO-UCHIWA' });
     var final = new Date().getTime();
 
     // Calculate the ping value in milliseconds
@@ -29,7 +18,7 @@ async (Void, citel) => {
     // Create a loading bar
     const loadingBarLength = 1 ;
     const loadedBlocks = loadingBarLength;
-    const loadingBar = '𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 *PING* *BY* 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀'.repeat(loadedBlocks);
+    const loadingBar = '𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 PING BY 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀'.repeat(loadedBlocks);
 
     // Send the loading bar first
     await Void.sendMessage(citel.chat, { text: `*Pong*\n ${loadingBar} `, edit: key });
@@ -38,5 +27,5 @@ async (Void, citel) => {
     await Secktor.sleep(1000);
 
     // Send the final ping message
-    return await Void.sendMessage(citel.chat, { text: `*Ping: ${pingValue} ms*` });
+    return await Void.sendMessage(citel.chat, { text: *Ping: ${pingValue} ms* });
 });
