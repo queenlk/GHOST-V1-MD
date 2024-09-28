@@ -7,11 +7,10 @@ cmd({
     react: "📡",
     filename: __filename
 },
+async(Void, citel) => {
+        let { data } = await axios.get('https://api.github.com/repos/DENZO-UCHIWA/BLAST-MD')
+        let cap = `Hey *BLAST-MD*
 
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-
-let dec = `*BLAST-MD REPO*
 
 ╭––––––––––––––––––––––––►
 ├──► *🎯Total Stars:* ${data.stargazers_count} stars
