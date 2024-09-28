@@ -14,10 +14,10 @@ try{
 let dec = `
 
 ╭─────────────━┈⊷
-│👾 ʙᴏᴛ ɴᴀᴍᴇ: BLAST-ᴍᴅ
+│👾 ʙᴏᴛ ɴᴀᴍᴇ: BLAST-MD
 │👨‍💻 ᴏᴡɴᴇʀ : DENZO-UCHIWA 
 │👤 ɴᴜᴍʙᴇʀ: 244956100349
-│💻 HOSTER: DENZO-ᴛᴇᴀᴍ
+│💻 HOSTER: DENZO-TEAM
 │💫 ᴘʀᴇғɪx: [Multi-Prefix]
 ╰─────────────━┈⊷ 
 ╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
