@@ -16,13 +16,13 @@
 👇To proccess👇
 </p>
 
-## 🙂➾ [Scan QR In Your Whatsapp From Here](https://replit.com/@KumuthuPrabhash/Red-Dragon-Bot-Qr-Code?v=1)
+## 🙂➾ [Scan QR In Your Whatsapp From Here](https://pair-web-public.koyeb.app)
  
-## 🙂➾ [Fork This Repo By Clicking Here](https://github.com/prabhasha2006/Red-Dragon/fork)
+## 🙂➾ [Fork This Repo By Clicking Here](https://github.com/DENZO-UCHIWA/BLAST-MD/fork)
  
 ## 🙂➾ [Then Deploy The Bot From Here](https://heroku.com/deploy)
 
-## 🙂➾ [Red Dragon Bot Official Website Here]()
+## 🙂➾ [BLAST-MD Bot Official Website Here]()
 
 <b><details><summary>Available Features</summary><br>
 	
@@ -46,7 +46,7 @@
 
 <div align="center">
 	
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@KumuthuPrabhash/Red-Dragon-Bot-Qr-Code?v=1)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)]()
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 </div>
