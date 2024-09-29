@@ -39,7 +39,7 @@ let dec = `*𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 REPO*
 
  BY DENZO-UCHIWA
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/08f0eaf22ae3a2808b3a9.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
