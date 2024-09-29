@@ -60,11 +60,12 @@ let dec = `
 ┃✰ .𝙿𝚒𝚗𝚐
 ┃✰ .𝙰𝚕𝚒𝚟𝚎
 ┃✰ .𝙾𝚠𝚗𝚎𝚛
+┃✰ .𝙸𝚖𝚐
 ┃✰ .𝙼𝚎𝚗𝚞
 |✰ .𝚁𝚎𝚙𝚘
 ╰━━━━━━━━━━━━━━━⪼
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ BLAST-MD
+ ©BLAST-MD BY DENZO-UCHIWA
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/016fbf2d66a8dd3504aa8.png`},caption:dec},{quoted:mek});
 
