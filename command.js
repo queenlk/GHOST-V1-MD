@@ -1,4 +1,3 @@
-var config = require("../func");
 var commands = [];
 
 function cmd(info, func) {
@@ -17,6 +16,5 @@ module.exports = {
     AddCommand:cmd,
     Function:cmd,
     Module:cmd,
-    xmd:cmd,
     commands,
 };
