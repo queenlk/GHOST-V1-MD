@@ -56,7 +56,7 @@ let dec = `
 ┃✰ .𝐻𝑎𝑐𝑘
 ┃✰ .𝚁𝚊𝚜𝚝𝚊𝚛𝚝
 ╰━━━━━━━━━━━━━━━⪼
- ©*BLAST-MD BY DENZO-UCHIWA*
+ © *BLAST-MD BY DENZO-UCHIWA*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/016fbf2d66a8dd3504aa8.png`},caption:dec},{quoted:mek});
 
