@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name GHOST-MD BOT",
-    "stop": "pm2 stop GHOST-MD BOT",
+    "stop": "pm2 stop BLAST-MD BOT",
     "restart": "pm2 restart GHOST-MD BOT"
   },
   "dependencies": {
