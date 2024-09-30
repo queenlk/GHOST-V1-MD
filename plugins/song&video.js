@@ -34,17 +34,57 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 
 //download audio
 
-let down = await fg.yta(url)  
-let downloadUrl = down.dl_url
+  footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+	    }
+         let urlYt = text;
+            if(!text){ text=citel.quoted.text; }
 
-//send audio
-await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ"},{quoted:mek})
-}catch(e){
-reply(`${e}`)
-}
+            if (!urlYt.startsWith("http")) 
+            {
+                let yts = require("secktor-pack");
+                let search = await yts(text);
+                let anu = search.videos[0];
+                urlYt = anu.url; 
+            }
+            let infoYt = await ytdl.getInfo(urlYt);
+            if (infoYt.videoDetails.lengthSeconds >= 1200) return citel.reply(`*song not Found, Try Differ Name*`);
+            let titleYt = infoYt.videoDetails.title;   
+	    citel.reply(`_Downloading ${infoYt.videoDetails.title}?_`);
+            let randomName = getRandom(".mp3");
+            const stream = ytdl(urlYt, {
+                 filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128, })
+                 .pipe(fs.createWriteStream(`./${randomName}`));
+                
+	   await new Promise((resolve, reject) => { stream.on("error", reject);  stream.on("finish", resolve);  });
+            
+            let stats = fs.statSync(`./${randomName}`);
+            let fileSizeInBytes = stats.size;
+            let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
+            if (fileSizeInMegabytes <= dlsize) 
+            {
+                let yts = require("secktor-pack");
+                let search = await yts(text);
+                let buttonMessage = 
+				{
+				    audio: fs.readFileSync(`./${randomName}`),
+				    mimetype: 'audio/mpeg',
+				    fileName: titleYt + ".mp3",
+				    headerType: 4,
+				 }
+                 
+                await Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
+                return fs.unlinkSync(`./${randomName}`);
+            } 
+            else {   citel.reply(`❌ File size bigger than 100mb.`);    }
+             return fs.unlinkSync(`./${randomName}`);
+   
+   }catch (e) { return citel.reply(`Error While Downloading Your Song`);  }
 })
-
+    
 //===========video-dl===========
 
 cmd({
