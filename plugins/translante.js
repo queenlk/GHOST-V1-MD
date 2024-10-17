@@ -28,7 +28,7 @@ async (conn, mek, m, { from, q, reply }) => {
 🔠 *Translated*: ${translation}
 🌐 *Language*: ${targetLang.toUpperCase()}
 
- ©BY BLAST-MD`;
+ ©ᴘᴏᴡᴇʀᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ`;
 
         return reply(translationMessage);
     } catch (e) {
