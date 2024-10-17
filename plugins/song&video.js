@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*◆ BLAST-MD SONG DOWNLOADING.....◆*
+let desc = `*◆ GHOST-MD SONG DOWNLOADING.....◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -101,7 +101,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*◆ BLAST-MD VIDEO DOWNLOADING.....◆*
+let des = `*◆ GHOST-MD VIDEO DOWNLOADING.....◆*
 
 | ➤ TITLE - ${data.title}
 
@@ -113,7 +113,7 @@ let des = `*◆ BLAST-MD VIDEO DOWNLOADING.....◆*
 
 | ➤ AGO - ${data.ago}
 
-©*BY BLAST-MD*
+*ᴘᴏᴡᴇʀᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ*
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
