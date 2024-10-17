@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="GHOST-MD" height="300" src="https://files.catbox.moe/hqvp3k.jpg">
+    <img alt="GHOST-MD" height="300" src="https://telegra.ph/file/397000a07a1deb7fad9c2.jpg">
 
     
 
