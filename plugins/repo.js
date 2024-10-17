@@ -11,35 +11,23 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 REPO*
+let dec = `*👻 GHOST MD Repastitory Information*
 
-
-╭––––––––––––––––––––––––►
-├──► *🎯Total Stars:* 2
-┆
-├──► *🎯Forks:* 2
-┆
-├──► *🎯github link:* https://github.com/DENZO-UCHIWA/BLAST-MD
-┆
-├──► *🎯support Group:* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud
-┆
-├──► *🎯develeper num:* +244939457425
-┆
-├──► *🎯Tutoral video:*
-┆
-├──► 🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐁𝐘  
-╰––––––––––––––––––––––––►
+*| ɴᴀᴍᴇ*: ɢʜᴏꜱᴛ-ᴍᴅ
+*| ᴏᴡɴᴇʀ*: ᴄʏʙᴇʀ ɢʜᴏꜱᴛ
+*| ɴᴜᴍʙᴇʀ*: 94741140620
+*| ᴠᴇʀꜱɪᴏɴ*: 1.0.0
 
 
 *📡 REPO LINK*
-🔗◦https://github.com/DENZO-UCHIWA/BLAST-MD.git
+🔗◦ https://github.com/GHOST-TEM/GHOST-V1-MD.git
 
 *📌 SUBSCRIBE MY YOUTUBE CHANNEL*
-🔗◦ 
+🔗◦ https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M
 
- BY DENZO-UCHIWA
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/08f0eaf22ae3a2808b3a9.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
