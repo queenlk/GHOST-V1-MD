@@ -39,9 +39,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 image: buffer,
                 caption: `
-            🌟 *-------「 BLAST-MD Image ${i + 1} from your search! 」-------* 🌟
+            🌟 *-------「 GHOST-MD Image ${i + 1} from your search! 」-------* 🌟
 
- ©BY DENZO-UCHIWA
+ ©ᴘᴏᴡᴇʀᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
 `
 }, { quoted: mek });
 }
