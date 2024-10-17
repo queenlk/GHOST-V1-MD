@@ -30,7 +30,7 @@
 
 
 # 𝐆𝐇𝐎𝐒𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐍𝐔𝐌𝐁𝐄𝐑👇:
-<img src="https://telegra.ph/file/397000a07a1deb7fad9c2.jpg" width=80 height=80></a>   
+<img src="https://telegra.ph/file/f8ced69143daac134f2d7.jpg" width=80 height=80></a>   
 - [**❯𝐆𝐇𝐎𝐒𝐓-𝐂𝐎𝐍𝐓𝐀𝐂𝐓-𝐈𝐃❮**](https://wa.me/+94741140620?text=*❝𝙷𝙴𝚈◹𝙶𝙷𝙾𝚂𝚃✗𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁❞⛺*)
 # 𝐆𝐇𝐎𝐒𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐍𝐔𝐌𝐁𝐄𝐑👇:
 <img src="https://telegra.ph/file/68dd5640f7ca165397913.jpg" width=80 height=80></a>   
